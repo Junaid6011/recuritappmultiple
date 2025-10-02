@@ -160,7 +160,7 @@ if st.session_state.candidates:
                     Congratulations! You have been shortlisted for an interview.<br><br>
                     Interview Date & Time: {c['interview_datetime'].strftime('%Y-%m-%d %H:%M')}<br>
                     Duration: 30 minutes<br><br>
-                    <b>AI Evaluation Remarks:</b><br>{c['ai_result'].replace('\n','<br>')}<br><br>
+                    <b> Evaluation Remarks:</b><br>{c['ai_result'].replace('\n','<br>')}<br><br>
                     Best Regards,<br>Recruitment Team
                     """
                 elif c["decision"] == "Reject":
